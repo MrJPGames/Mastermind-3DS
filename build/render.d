@@ -31,13 +31,18 @@ render.o: c:/devkitPro/3DS/Mastermind/source/render.c \
  c:/devkitPro/3DS/Mastermind/build/bottom_arrows_bin.h \
  c:/devkitPro/3DS/Mastermind/build/bottom_colors_bin.h \
  c:/devkitPro/3DS/Mastermind/build/bottom_circle_bin.h \
+ c:/devkitPro/3DS/Mastermind/build/bottom_difselect_bin.h \
+ c:/devkitPro/3DS/Mastermind/build/bottom_modeselect_bin.h \
+ c:/devkitPro/3DS/Mastermind/build/bottom_modeselectbuttons_bin.h \
+ c:/devkitPro/3DS/Mastermind/build/bottom_currentplayer_bin.h \
  c:/devkitPro/3DS/Mastermind/build/grey_numbers_bin.h \
  c:/devkitPro/3DS/Mastermind/build/top_bin.h \
  c:/devkitPro/3DS/Mastermind/build/top_arrow_bin.h \
  c:/devkitPro/3DS/Mastermind/build/top_colors_bin.h \
  c:/devkitPro/3DS/Mastermind/build/top_pins_bin.h \
  c:/devkitPro/3DS/Mastermind/build/top_gameover_bin.h \
- c:/devkitPro/3DS/Mastermind/build/top_win_bin.h
+ c:/devkitPro/3DS/Mastermind/build/top_win_bin.h \
+ c:/devkitPro/3DS/Mastermind/build/top_instruction_bin.h
 
 c:/devkitPro/3DS/Mastermind/source/render.h:
 
@@ -103,6 +108,14 @@ c:/devkitPro/3DS/Mastermind/build/bottom_colors_bin.h:
 
 c:/devkitPro/3DS/Mastermind/build/bottom_circle_bin.h:
 
+c:/devkitPro/3DS/Mastermind/build/bottom_difselect_bin.h:
+
+c:/devkitPro/3DS/Mastermind/build/bottom_modeselect_bin.h:
+
+c:/devkitPro/3DS/Mastermind/build/bottom_modeselectbuttons_bin.h:
+
+c:/devkitPro/3DS/Mastermind/build/bottom_currentplayer_bin.h:
+
 c:/devkitPro/3DS/Mastermind/build/grey_numbers_bin.h:
 
 c:/devkitPro/3DS/Mastermind/build/top_bin.h:
@@ -116,3 +129,5 @@ c:/devkitPro/3DS/Mastermind/build/top_pins_bin.h:
 c:/devkitPro/3DS/Mastermind/build/top_gameover_bin.h:
 
 c:/devkitPro/3DS/Mastermind/build/top_win_bin.h:
+
+c:/devkitPro/3DS/Mastermind/build/top_instruction_bin.h:
