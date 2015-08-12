@@ -1,4 +1,5 @@
 #include <3ds.h>
+#include <stdlib.h>
 #include "touch.h"
 #include "render.h"
 
@@ -152,14 +153,14 @@ int main(){
 	srvInit();
 	aptInit();
 	hidInit(NULL);
-	gfxInit();
+	gfxInitDefault();
 	resetGame();
 	int x;
 	while (aptMainLoop()){
 		hidScanInput();
 		hidTouchRead(&touch);
 		u32 kDown = hidKeysDown();
-		u32 kHeld = hidKeysHeld();
+		//u32 kHeld = hidKeysHeld(); Not used an otherwise you'll get warning during compile, this makes compile more pleasant to look at yea!
 		if (state != 0 && cur_row != 7){
 			if (secretCode() && state != 3)
 				cheat=1;
